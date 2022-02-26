@@ -82,7 +82,7 @@
   } */
 </style>
 
-<div class="todo done">
+<div class="todo">
     <form action="" method="">
         <input type="hidden" name="done" value=""/>
         <button aria-label="Mark done/not done" class="toggle"></button>
@@ -93,7 +93,7 @@
         <button aria-label="Save todo" class="save"></button>
     </form>
 
-    <form action="" method="">
+    <form action="/todos/{todo.uid}.json?_method=delete" method="post">
         <button aria-label="Delete todo" class="delete"></button>
     </form>
 </div>

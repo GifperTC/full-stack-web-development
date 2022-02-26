@@ -15,7 +15,7 @@
     return {
       error: new Error(message)
     }
-  }
+  };
 
 </script>
 
