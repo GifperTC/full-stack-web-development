@@ -1,4 +1,3 @@
----
 # For more details, please see https://www.gitpod.io/docs/references/gitpod-yml
 image: gitpod/workspace-postgres
 
@@ -24,10 +23,12 @@ ports:
 vscode:
   extensions:
     - svelte.svelte-vscode
-    - Prisma.prisma
+    - prisma.prisma
 
 github:
   prebuilds:
     master: true
     branches: true
     pullRequests: true
+
+    
